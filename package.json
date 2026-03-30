@@ -1,0 +1,13 @@
+{
+  "name": "tani-toreru-kun",
+  "version": "1.0.0",
+  "description": "絶対単位を落とさせない大学生活マネージャーAI",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.80.0"
+  }
+}

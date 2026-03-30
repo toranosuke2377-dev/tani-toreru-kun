@@ -1,0 +1,609 @@
+{
+  "前学期": {
+    "月": {
+      "2限": {
+        "name": "経済学入門1",
+        "teacher": "宮岡 暁",
+        "room": "1303教室",
+        "units": 2,
+        "evaluation": "平常点40%(Google Forms課題) + 期末試験60%",
+        "textbook": "関谷喜三郎ほか『はじめて学ぶ経済学 第3版』慶應義塾大学出版会",
+        "weeks": {
+          "1": { "topic": "授業の概要，目的，到達目標及び授業の方法等について", "prep": "テキストのはしがきなどを読み講義開始の準備を行う", "review": "講義内容をテキストを見返しながら復習する" },
+          "2": { "topic": "経済学とは何か", "prep": "テキスト第1章を読む", "review": "コストとベネフィットを考察する" },
+          "3": { "topic": "消費者行動と需要曲線", "prep": "テキスト第2章を読む", "review": "需要曲線のシフトを身近な例で考察する" },
+          "4": { "topic": "需要の価格弾力性", "prep": "テキスト第2章を読む", "review": "弾力性と企業収入に関して考察する" },
+          "5": { "topic": "企業行動と供給曲線", "prep": "テキスト第3章を読む", "review": "供給曲線のシフトの事例を考察する" },
+          "6": { "topic": "供給の価格弾力性", "prep": "テキスト第3章を読む", "review": "企業の生産戦略の事例を考察する" },
+          "7": { "topic": "市場の均衡とその変動", "prep": "テキスト第4章を読む", "review": "市場価格の調整メカニズムの事例を考察する" },
+          "8": { "topic": "市場における資源配分の効率性", "prep": "テキスト第4章を読む", "review": "余剰分析を考察する" },
+          "9": { "topic": "市場の現実と企業行動", "prep": "テキスト第5章を読む", "review": "日本の産業構造を考察する" },
+          "10": { "topic": "独占・寡占の理論", "prep": "テキスト第5章を読む", "review": "日本の大企業の行動を考察する" },
+          "11": { "topic": "公共財と外部性", "prep": "テキスト第6章を読む", "review": "市場の失敗の要因とその解決策を考察する" },
+          "12": { "topic": "情報の非対称性", "prep": "テキスト第7章を読む", "review": "逆選択とモラルハザードの事例を考察する" },
+          "13": { "topic": "授業内試験の実施", "prep": "前学期の講義内容を総復習する", "review": "理解不十分な箇所を復習し理解を定着させる", "exam": true }
+        }
+      },
+      "3限": {
+        "name": "環境経営論",
+        "teacher": "所 伸之",
+        "room": "1301教室",
+        "units": 2,
+        "evaluation": "期末レポート70% + 毎回小テスト30%",
+        "weeks": {
+          "1": { "topic": "イントロダクション", "prep": "シラバス全体に目を通し概要を把握する", "review": "企業活動と環境問題の関わりについて情報収集する" },
+          "2": { "topic": "循環型社会の構築(3Rの実践)", "prep": "循環型社会とは何かについて調べる", "review": "現代の社会経済システムの問題点について要点を整理する" },
+          "3": { "topic": "自動車産業と環境問題", "prep": "自動車の電動化や脱クルマ社会の動きを調べる", "review": "EVの今後の動向について調べ自らの考えをまとめる" },
+          "4": { "topic": "環境金融(SRI, ESG)", "prep": "金融と環境の関係について調べる", "review": "SRI,ESGの課題について整理する" },
+          "5": { "topic": "住宅産業と環境問題", "prep": "住宅産業の環境問題への取り組みを調べる", "review": "スマートハウスやスマートシティの課題を整理する" },
+          "6": { "topic": "環境マネジメントシステム(ISO14001)", "prep": "ISO14001の内容について調べる", "review": "ISO14001の課題について整理する" },
+          "7": { "topic": "環境経営とステークホルダー(NPOの役割)", "prep": "NPOと営利組織の違いについて調べる", "review": "NPOの課題について整理する" },
+          "8": { "topic": "環境経営とCSR, CSV", "prep": "CSR,CSVの意味について調べる", "review": "環境経営とCSR,CSVの関係性を整理する" },
+          "9": { "topic": "環境問題に対する国際的な取り組み", "prep": "環境問題に対する国連の取り組みを調べる", "review": "パリ協定の課題について整理する" },
+          "10": { "topic": "低炭素社会の構築とイノベーション", "prep": "シュンペーターのイノベーション論を調べる", "review": "低炭素・脱炭素を巡る技術開発の動きをまとめる" },
+          "11": { "topic": "環境経営と環境教育", "prep": "企業内環境教育の内容を調べる", "review": "企業内環境教育の意義と課題を整理する" },
+          "12": { "topic": "水素社会の実現とエネルギー革命", "prep": "水素についての基本的な知識を学ぶ", "review": "炭素社会から水素社会への移行の課題を整理する" },
+          "13": { "topic": "まとめ 環境問題と企業活動", "prep": "公害問題・地球環境問題における企業活動の影響を調べる", "review": "環境問題における企業の役割の変遷をまとめる" }
+        }
+      }
+    },
+    "水": {
+      "2限": {
+        "name": "サービス経済論A",
+        "teacher": "安田 武彦",
+        "room": "1302教室",
+        "units": 2,
+        "evaluation": "期末テスト60% + 平常点40%(レポート・練習問題)",
+        "weeks": {
+          "1": { "topic": "日本のサービス経済化の現状と問題点I", "prep": "日本経済の現状を新聞を読んで把握する", "review": "日本経済のサービス化を考察する" },
+          "2": { "topic": "日本のサービス経済化の現状と問題点II", "prep": "米国経済の現状を新聞を読んで把握する", "review": "米国経済のサービス化を考察する" },
+          "3": { "topic": "経済のグローバル化とその要因", "prep": "国際経済の現状を新聞を読んで把握する", "review": "日本経済のグローバル化を考察する" },
+          "4": { "topic": "機械との競争：IoTとAI", "prep": "日本経済の現状を新聞を読んで把握する", "review": "日本経済の情報経済化を考察する" },
+          "5": { "topic": "グローバル化と知識経済化と中間層", "prep": "日本企業のグローバル化を新聞で把握する", "review": "日本企業のグローバル化と知識経済化を考察する" },
+          "6": { "topic": "サービスの特徴とサービス・マネジメント", "prep": "日本企業のサービス化を新聞で把握する", "review": "日本企業のサービス化を考察する" },
+          "7": { "topic": "サービス経済研究における新潮流", "prep": "日本経済のサービス化を新聞で把握する", "review": "新たなサービス経済化を考察する" },
+          "8": { "topic": "サービスにおける企業と顧客の価値共創", "prep": "日本企業のサービス戦略を新聞で把握する", "review": "日本経済のサービス化を考察する" },
+          "9": { "topic": "生産消費者としての顧客", "prep": "日本の消費者問題を新聞で把握する", "review": "サービス化における消費者の役割を考察する" },
+          "10": { "topic": "サービス価格の特徴", "prep": "日本のサービス価格の現状を新聞で把握する", "review": "日本におけるサービス価格の推移を考察する" },
+          "11": { "topic": "サービス価格の多様性", "prep": "日本企業のサービス価格戦略を新聞で把握する", "review": "日本企業の価格差別を考察する" },
+          "12": { "topic": "テーマパークの価格設定", "prep": "日本テーマパークの現状を新聞で把握する", "review": "テーマパークの価格戦略を事例から考察する" },
+          "13": { "topic": "授業の振り返りと理解度チェックの期末テスト", "prep": "前学期の講義内容を総復習する", "review": "理解不十分な箇所を復習し理解を定着させる", "exam": true }
+        }
+      },
+      "3限": {
+        "name": "英語5(再・中級)",
+        "teacher": "寺本 明子",
+        "room": "2406教室",
+        "units": 1,
+        "evaluation": "Participation30% + Presentations/Tests50% + Quizzes/Assignments20%",
+        "textbook": "『世界の常識:小さいけれど大きな違い！』川田伸道著 朝日出版社",
+        "weeks": {
+          "1": { "topic": "オリエンテーション, Unit 1 本文リーディング", "prep": "Unit 1の本文を辞書を引きながら読む。新出単語の和訳を調べる", "review": "授業で学んだ内容(文・単語の和訳,文法)を覚える" },
+          "2": { "topic": "Unit 1 続き,練習問題,文法説明", "prep": "Unit 1の本文を辞書を引きながら読む", "review": "授業で学んだ内容を覚える" },
+          "3": { "topic": "Unit 2 本文リーディング", "prep": "Unit 2の本文を辞書を引きながら読む", "review": "授業で学んだ内容を覚える" },
+          "4": { "topic": "Unit 2 続き,練習問題,文法説明", "prep": "Unit 2の本文を辞書を引きながら読む", "review": "授業で学んだ内容を覚える" },
+          "5": { "topic": "Unit 3 本文リーディング", "prep": "Unit 3の本文を辞書を引きながら読む", "review": "授業で学んだ内容を覚える" },
+          "6": { "topic": "Unit 3 続き,練習問題,文法説明", "prep": "Unit 3の本文を辞書を引きながら読む", "review": "授業で学んだ内容を覚える" },
+          "7": { "topic": "Unit 4 本文リーディング", "prep": "Unit 4の本文を辞書を引きながら読む", "review": "授業で学んだ内容を覚える" },
+          "8": { "topic": "Unit 4 続き,練習問題,文法説明", "prep": "Unit 4の本文を辞書を引きながら読む", "review": "授業で学んだ内容を覚える" },
+          "9": { "topic": "Unit 5 本文リーディング", "prep": "Unit 5の本文を辞書を引きながら読む", "review": "授業で学んだ内容を覚える" },
+          "10": { "topic": "Unit 5 続き,練習問題,文法説明", "prep": "Unit 5の本文を辞書を引きながら読む", "review": "授業で学んだ内容を覚える" },
+          "11": { "topic": "Unit 6 本文リーディング", "prep": "Unit 6の本文を辞書を引きながら読む", "review": "授業で学んだ内容を覚える" },
+          "12": { "topic": "Unit 6 続き,練習問題,文法説明", "prep": "Unit 6の本文を辞書を引きながら読む", "review": "授業で学んだ内容を覚える" },
+          "13": { "topic": "今学期の授業の振り返り", "prep": "プレゼンテーションの準備", "review": "今学期の学習の振り返り,定期試験に向けての勉強" }
+        }
+      },
+      "4限": {
+        "name": "異文化コミュニケーションA",
+        "teacher": "バイラ ビレンドラ プラサド",
+        "room": "1601教室",
+        "units": 2,
+        "evaluation": "Participation30% + Report30% + Presentations40%",
+        "weeks": {
+          "1": { "topic": "Introduction & Orientation", "prep": "Think about culture values from your country", "review": "Self-assessment for Intercultural Communication" },
+          "2": { "topic": "Defining Intercultural Communication and Components", "prep": "Preview Intercultural Communication and Components", "review": "Review Intercultural Communication and Components" },
+          "3": { "topic": "Defining Culture for the study of Communication", "prep": "Preview Culture", "review": "Review Culture" },
+          "4": { "topic": "Culture and Perception: Beliefs, Values, Norms", "prep": "Preview Culture and Perception", "review": "Review Culture and Perception" },
+          "5": { "topic": "The Iceberg Concept of Culture", "prep": "Preview The Iceberg Concept of Culture", "review": "Review The Iceberg Concept of Culture" },
+          "6": { "topic": "Effect of Culture on Sensing", "prep": "Preview Effect of Culture on Sensing", "review": "Review Effect of Culture on Sensing" },
+          "7": { "topic": "Language and Culture 1: Verbal Intercultural Communication", "prep": "Preview Verbal Intercultural Communication", "review": "Review Intercultural Communication" },
+          "8": { "topic": "Language and Culture 2: Language as a Barrier", "prep": "Preview Language as a Barrier", "review": "Review Language as a Barrier" },
+          "9": { "topic": "Nonverbal Communication 1: Kinesics, Oculesics, Paralinguistic, Proxemics", "prep": "Preview Kinesics, Oculesics, Paralinguistic, Proxemics", "review": "Review Kinesics, Oculesics, Paralinguistic, Proxemics" },
+          "10": { "topic": "Nonverbal Communication 2: Artifacts, Chronemics, Tactilics and Silence", "prep": "Preview Artifacts, Chronemics, Tactilics and Silence", "review": "Review Artifacts, Chronemics, Tactilics and Silence" },
+          "11": { "topic": "Watching Movie 'Outsourced'", "prep": "Watching Movie 'Outsourced'", "review": "Review 'Outsourced'" },
+          "12": { "topic": "Presentation: First and Second Group", "prep": "Prepare & Preview presenters' materials", "review": "Writing comments", "presentation": true },
+          "13": { "topic": "Presentation: Third and Fourth Group", "prep": "Prepare & Preview presenters' materials", "review": "Writing Comments", "presentation": true }
+        }
+      },
+      "5限": {
+        "name": "英語1(再・中級)",
+        "teacher": "岡田 愛",
+        "room": "2204教室",
+        "units": 1,
+        "evaluation": "Participation30% + Tests50% + Quizzes/Assignments20%",
+        "textbook": "『5分間に地表基本英単語 熟語1000』南雲堂 佐藤誠司",
+        "weeks": {
+          "1": { "topic": "オリエンテーション", "prep": "次回の授業範囲を予習しキーワードの意味を理解する", "review": "授業で確認した単語とリーディングを精読する" },
+          "2": { "topic": "Lesson 1 社会や文化に関する語句とリーディング", "prep": "次回の授業範囲を予習しキーワードの意味を理解する", "review": "授業で確認した単語とリーディングを精読する" },
+          "3": { "topic": "Lesson 2 法律・政治・治安に関する語句とリーディング", "prep": "次回の授業範囲を予習しキーワードの意味を理解する", "review": "授業で確認した単語とリーディングを精読する" },
+          "4": { "topic": "Lesson 3 経済・ビジネスに関する語句とリーディング", "prep": "次回の授業範囲を予習しキーワードの意味を理解する", "review": "授業で確認した単語とリーディングを精読する" },
+          "5": { "topic": "Lesson 4 産業・機械に関する語句とリーディング", "prep": "次回の授業範囲を予習しキーワードの意味を理解する", "review": "授業で確認した単語とリーディングを精読する" },
+          "6": { "topic": "Lesson 5 自然・環境に関する語句とリーディング", "prep": "次回の授業範囲を予習しキーワードの意味を理解する", "review": "授業で確認した単語とリーディングを精読する" },
+          "7": { "topic": "Lesson 6 自然科学に関する語句とリーディング", "prep": "次回の授業範囲を予習しキーワードの意味を理解する", "review": "授業で確認した単語とリーディングを精読する" },
+          "8": { "topic": "Lesson 7 教育・大学に関する語句とリーディング", "prep": "次回の授業範囲を予習しキーワードの意味を理解する", "review": "授業で確認した単語とリーディングを精読する" },
+          "9": { "topic": "Lesson 8 言語文学に関する語句とリーディング", "prep": "次回の授業範囲を予習しキーワードの意味を理解する", "review": "授業で確認した単語とリーディングを精読する" },
+          "10": { "topic": "Lesson 9 交通・旅行に関する語句とリーディング", "prep": "次回の授業範囲を予習しキーワードの意味を理解する", "review": "授業で確認した単語とリーディングを精読する" },
+          "11": { "topic": "Lesson 10 マスコミ・放送・情報に関する語句とリーディング", "prep": "次回の授業範囲を予習しキーワードの意味を理解する", "review": "授業で確認した単語とリーディングを精読する" },
+          "12": { "topic": "Lesson 11 郵便・電話・メールに関する語句とリーディング", "prep": "次回の授業範囲を予習しキーワードの意味を理解する", "review": "授業で確認した単語とリーディングを精読する" },
+          "13": { "topic": "試験", "prep": "試験範囲をしっかりと見直し試験に備える", "review": "授業で確認した単語とリーディングを精読する", "exam": true }
+        }
+      }
+    },
+    "木": {
+      "2限": {
+        "name": "ドイツ語1(再)",
+        "teacher": "渡邊 徳明",
+        "room": "2412教室",
+        "units": 1,
+        "evaluation": "平常点100%(授業参加50% + 課題・小テスト・発表50%)",
+        "weeks": {
+          "1": { "topic": "ガイダンス", "prep": "シラバスを読み目的と到達目標を理解する", "review": "ドイツ語のアルファベートと発音規則を確認する" },
+          "2": { "topic": "アルファベートの発音,単語の発音練習", "prep": "新出単語の意味と挨拶を調べる", "review": "ドイツ語での挨拶を練習する" },
+          "3": { "topic": "規則動詞の現在人称変化", "prep": "新出単語の意味と規則動詞を調べる", "review": "規則動詞を使った文を作り理解を深める" },
+          "4": { "topic": "名詞の性や格,冠詞の格変化", "prep": "新出単語の意味と名詞や冠詞を調べる", "review": "名詞と動詞を使った文を作り理解を深める" },
+          "5": { "topic": "不規則動詞の変化", "prep": "新出単語の意味と不規則動詞を調べる", "review": "不規則動詞を使った文を作り理解を深める" },
+          "6": { "topic": "名詞の複数形,数詞", "prep": "新出単語の意味と名詞の複数形を調べる", "review": "名詞の複数形を使った文を作り理解を深める" },
+          "7": { "topic": "人称代名詞,非人称のes,不定代名詞のman", "prep": "新出単語の意味と人称代名詞を調べる", "review": "人称代名詞を使った文を作る" },
+          "8": { "topic": "時間の表現(中間テスト予定)", "prep": "時間表現について調べる", "review": "複雑な時間の表現について作文をする", "exam": true },
+          "9": { "topic": "所有冠詞meinやdein,否定冠詞kein", "prep": "新出単語の意味と所有冠詞を調べる", "review": "所有冠詞を使った文を作り理解を深める" },
+          "10": { "topic": "指示冠詞", "prep": "新出単語の意味と指示冠詞を調べる", "review": "様々な指示冠詞を使った文を作る" },
+          "11": { "topic": "様々な前置詞,曜日・月・四季の表現", "prep": "新出単語の意味と前置詞の種類を調べる", "review": "様々な前置詞を使った文を作る" },
+          "12": { "topic": "分離動詞と非分離動詞", "prep": "新出単語の意味と分離動詞を調べる", "review": "分離動詞と非分離動詞を使った文を作る" },
+          "13": { "topic": "授業の振り返りと理解度チェック(期末テスト)", "prep": "初回から前回までの学習内容を振り返る", "review": "理解が不十分な点についてチェックノートを作る", "exam": true }
+        }
+      }
+    },
+    "金": {
+      "1限": {
+        "name": "ドイツ語5(再)",
+        "teacher": "山崎 明日香",
+        "room": "CP05教室",
+        "units": 1,
+        "evaluation": "平常点100%(授業参加50% + 課題・小テスト・発表50%)",
+        "weeks": {
+          "1": { "topic": "ガイダンス", "prep": "シラバスを読み目的と到達目標を理解する", "review": "ドイツ語1と2で学習した文法事項を確認する" },
+          "2": { "topic": "1年時の復習(挨拶,動詞の現在人称変化,疑問文)", "prep": "新出単語の意味と動詞の現在人称変化を調べる", "review": "動詞の現在人称変化を使った文を作る" },
+          "3": { "topic": "1年時の復習(語順,人称代名詞,名詞の格変化)", "prep": "新出単語の意味と語順や人称代名詞を調べる", "review": "語順や人称代名詞を使った文を作る" },
+          "4": { "topic": "ドイツ語圏の様々な文化事情", "prep": "ドイツの様々な文化事情について調べる", "review": "ドイツの様々な文化事情を確認し発展させる" },
+          "5": { "topic": "定冠詞類や不定冠詞類の格変化", "prep": "新出単語の意味と定冠詞類を調べる", "review": "定冠詞類や不定冠詞類を使った文を作る" },
+          "6": { "topic": "基数と序数", "prep": "新出単語の意味と基数と序数を調べる", "review": "基数と序数を使った文を作る" },
+          "7": { "topic": "前置詞の格支配,語順", "prep": "新出単語の意味と前置詞の格支配を調べる", "review": "前置詞を使った文を作る" },
+          "8": { "topic": "ドイツ語圏の様々な文化事情", "prep": "ドイツの様々な文化事情について調べる", "review": "ドイツの様々な文化事情を確認し発展させる" },
+          "9": { "topic": "名詞の複数形,名詞と数詞", "prep": "新出単語の意味と名詞の複数形を調べる", "review": "名詞の複数形や数詞を使った文を作る" },
+          "10": { "topic": "話法の助動詞,不定代名詞man", "prep": "新出単語の意味と話法の助動詞を調べる", "review": "話法の助動詞や不定代名詞を使った文を作る" },
+          "11": { "topic": "形容詞の格変化,形容詞の名詞化", "prep": "新出単語の意味と形容詞の格変化を調べる", "review": "形容詞の名詞化を使った文を作る" },
+          "12": { "topic": "ドイツ語圏の様々な文化事情", "prep": "ドイツの様々な文化事情について調べる", "review": "ドイツの様々な文化事情を確認し発展させる" },
+          "13": { "topic": "授業の振り返りと理解度チェック(期末テスト)", "prep": "初回から前回までの学習内容を振り返る", "review": "理解が不十分な点についてチェックノートを作る", "exam": true }
+        }
+      },
+      "2限": {
+        "name": "ドイツ語3(再)",
+        "teacher": "山崎 明日香",
+        "room": "CP05教室",
+        "units": 1,
+        "evaluation": "平常点100%(授業参加50% + 課題・小テスト・発表50%)",
+        "weeks": {
+          "1": { "topic": "ガイダンス", "prep": "シラバスを読み目的と到達目標を理解する", "review": "アルファベットと発音を確認する" },
+          "2": { "topic": "アルファベートの発音,単語の発音練習", "prep": "新出単語の意味を調べ音声資料を聞いて発音する", "review": "単語の意味を確認し音声資料を聞いて発音練習する" },
+          "3": { "topic": "挨拶をする：人称代名詞と規則動詞", "prep": "新出単語の意味と日常で使う挨拶を調べる", "review": "ドイツ語で挨拶の練習をする" },
+          "4": { "topic": "自己紹介をする：Wで始まる疑問文", "prep": "新出単語を調べ自己紹介について音声資料で確認する", "review": "ドイツ語で自己紹介の練習をする" },
+          "5": { "topic": "好きなことを話す：規則動詞の変化", "prep": "新出単語の意味を調べ音声資料を聞いて発音する", "review": "規則動詞を使った文を作り理解を深める" },
+          "6": { "topic": "数字や電話番号：人称代名詞と動詞sein", "prep": "新出単語の意味を調べ音声資料を聞いて発音する", "review": "人称代名詞を用いて会話練習をする" },
+          "7": { "topic": "友人の紹介：名詞と冠詞の変化", "prep": "新出単語の意味と名詞や冠詞を調べる", "review": "名詞や冠詞や数詞を使った文を作る" },
+          "8": { "topic": "学校生活について：名詞の構造", "prep": "新出単語の意味と名詞や所有冠詞を調べる", "review": "学校生活についてドイツ語で作文をする" },
+          "9": { "topic": "動物や身の回りの物の名詞：Ja/Neinで答える疑問文", "prep": "新出単語の意味を調べ音声資料を聞いて発音する", "review": "ペットについての単語を復習する" },
+          "10": { "topic": "インタヴューをする：1格と4格,動詞haben", "prep": "新出単語の意味とhaben動詞を調べる", "review": "haben動詞を使った文を作る" },
+          "11": { "topic": "持ち物やペットについて話す：定冠詞と人称代名詞", "prep": "新出単語と定冠詞や人称代名詞を調べる", "review": "定冠詞と人称代名詞を使った文を作る" },
+          "12": { "topic": "時刻,日付,曜日：文の構造", "prep": "新出単語を調べ音声資料を聞いて時刻の発音をする", "review": "時刻や曜日の表現について作文をする" },
+          "13": { "topic": "授業の振り返りと理解度チェック(期末テスト)", "prep": "初回から前回までの学習内容を振り返る", "review": "理解が不十分な点についてチェックノートを作る", "exam": true }
+        }
+      },
+      "3限": {
+        "name": "英語7(再・中級)",
+        "teacher": "金指 崇",
+        "room": "2505教室",
+        "units": 1,
+        "evaluation": "Participation30% + Tests50% + Quizzes/Assignments20%",
+        "textbook": "It's Time to Read『楽しく読んで学ぶ基礎英語』南雲堂",
+        "weeks": {
+          "1": { "topic": "Introduction", "prep": "Buy the textbook and scan Units 1-8", "review": "Answer the questions in the handout" },
+          "2": { "topic": "Introduction to English pronunciation", "prep": "Read Takashi's Pronunciation Tips", "review": "Answer the questions in the handout" },
+          "3": { "topic": "Unit 1 'A Penguin Story'", "prep": "Read Unit 1 and answer the questions", "review": "Answer the questions in the handout" },
+          "4": { "topic": "Unit 2 'A Serial Killer'", "prep": "Read Unit 2 and answer the questions", "review": "Answer the questions in the handout" },
+          "5": { "topic": "Unit 3 'A Genius Dog'", "prep": "Read Unit 3 and answer the questions", "review": "Answer the questions in the handout" },
+          "6": { "topic": "Test One", "prep": "Review Units 1, 2, and 3", "review": "Read the handout and review Test One", "exam": true },
+          "7": { "topic": "Unit 4 'Food Champ'", "prep": "Read Unit 4 and answer the questions", "review": "Answer the questions in the handout" },
+          "8": { "topic": "Unit 5 'Different, But The Same'", "prep": "Read Unit 5 and answer the questions", "review": "Answer the questions in the handout" },
+          "9": { "topic": "Unit 6 'Comparison Letter'", "prep": "Read Unit 6 and answer the questions", "review": "Answer the questions in the handout" },
+          "10": { "topic": "Test Two", "prep": "Review Units 1-6", "review": "Read the handout and review Test Two", "exam": true },
+          "11": { "topic": "Unit 7 'Halloween'", "prep": "Read Unit 7 and answer the questions", "review": "Answer the questions in the handout" },
+          "12": { "topic": "Unit 8 'Neighbour's Talk'", "prep": "Read Unit 8 and answer the questions", "review": "Answer the questions in the handout" },
+          "13": { "topic": "Final Test", "prep": "Review Units 1-8", "review": "Read the handout and review Final Test", "exam": true }
+        }
+      },
+      "4限": {
+        "name": "スポーツA(A6:バドミントン・バレーボール・ミニテニス)",
+        "teacher": "中島 早苗",
+        "room": "体育館・グラウンド",
+        "units": 1,
+        "evaluation": "理解度45% + 平常点55%",
+        "weeks": {
+          "1": { "topic": "ガイダンス", "prep": "シラバスを読み目的と到達目標を理解する", "review": "ガイダンス内容を振り返る" },
+          "2": { "topic": "バレーボール1:基礎技術(トス,レシーブ)", "prep": "技術や用具をインターネットで確認する。体調を整える", "review": "授業での取り組みや反省点について振り返る" },
+          "3": { "topic": "バレーボール2:基礎技術(サーブ,トス,スパイク)", "prep": "技術を確認する。体調を整える", "review": "授業での取り組みや反省点について振り返る" },
+          "4": { "topic": "バレーボール3:連携プレー,ゲーム", "prep": "技術を確認する。体調を整える", "review": "授業での取り組みや反省点について振り返る" },
+          "5": { "topic": "バレーボール4:フォーメーション,ゲーム", "prep": "技術を確認する。体調を整える", "review": "授業での取り組みや反省点について振り返る" },
+          "6": { "topic": "バドミントン1:基礎技術(フォア・バックハンド)", "prep": "技術を確認する。体調を整える", "review": "授業での取り組みや反省点について振り返る" },
+          "7": { "topic": "バドミントン2:ダブルスゲーム(団体戦)", "prep": "技術を確認する。体調を整える", "review": "授業での取り組みや反省点について振り返る" },
+          "8": { "topic": "バドミントン3:ハイクリアー,ドロップ,ヘアピン", "prep": "技術を確認する。体調を整える", "review": "授業での取り組みや反省点について振り返る" },
+          "9": { "topic": "バドミントン4:ダブルスゲーム", "prep": "技術を確認する。体調を整える", "review": "授業での取り組みや反省点について振り返る" },
+          "10": { "topic": "ミニテニス1:基礎技術(ラケッティング,ストローク)", "prep": "技術を確認する。体調を整える", "review": "授業での取り組みや反省点について振り返る" },
+          "11": { "topic": "ミニテニス2:ダブルスゲーム(団体戦)", "prep": "技術を確認する。体調を整える", "review": "授業での取り組みや反省点について振り返る" },
+          "12": { "topic": "ミニテニス3:ダブルスゲーム(ペアシャッフル)", "prep": "技術を確認する。体調を整える", "review": "授業での取り組みや反省点について振り返る" },
+          "13": { "topic": "ミニテニス4:総括,ダブルスゲーム", "prep": "これまでの授業内容を振り返り整理する。体調を整える", "review": "授業での取り組みを振り返り授業レポートを提出する" }
+        }
+      }
+    },
+    "オンデマンド": [
+      {
+        "name": "経営学入門1",
+        "teacher": "近藤 光",
+        "units": 2,
+        "evaluation": "確認テスト50% + 期末試験50%",
+        "textbook": "日本大学商学部経営学科編『はじめての経営学』同文舘出版",
+        "classroom_code": "xvg3xktz",
+        "weeks": {
+          "1": { "topic": "イントロダクション", "prep": "シラバスを読み目的と到達目標を理解する", "review": "本授業の全体像を把握する" },
+          "2": { "topic": "企業経営の基礎：経営管理", "prep": "教科書第1章を読む", "review": "企業・経営の概念を教科書で確認し定着させる" },
+          "3": { "topic": "企業の戦略：企業戦略", "prep": "教科書第2章を読む", "review": "企業戦略を教科書で確認し定着させる" },
+          "4": { "topic": "企業の戦略：事業戦略", "prep": "教科書第3章を読む", "review": "事業戦略を教科書で確認し定着させる" },
+          "5": { "topic": "企業の戦略：まとめ", "prep": "第3回と第4回の授業内容を振り返る", "review": "企業の戦略を教科書で確認し定着させる" },
+          "6": { "topic": "企業の組織：ミクロ組織論", "prep": "教科書第4章を読む", "review": "ミクロ組織論を教科書で確認し定着させる" },
+          "7": { "topic": "企業の組織：マクロ組織論", "prep": "教科書第5章を読む", "review": "マクロ組織論を教科書で確認し定着させる" },
+          "8": { "topic": "企業の組織：まとめ", "prep": "第6回と第7回の授業内容を振り返る", "review": "企業の組織を教科書で確認し定着させる" },
+          "9": { "topic": "企業のガバナンス：株式会社", "prep": "教科書第6章第1-3節を読む", "review": "株式会社の仕組みを教科書で確認し定着させる" },
+          "10": { "topic": "企業のガバナンス：コーポレート・ガバナンス,CSR", "prep": "教科書第6章第4-8節を読む", "review": "コーポレート・ガバナンスとCSRを確認し定着させる" },
+          "11": { "topic": "企業のガバナンス：まとめ", "prep": "第9回と第10回の授業内容を振り返る", "review": "企業のガバナンスを教科書で確認し定着させる" },
+          "12": { "topic": "企業経営の各論", "prep": "各担当者が指示する", "review": "授業内容を参考書で確認し定着させる" },
+          "13": { "topic": "期末試験", "prep": "第1-12回の理論やキーワードを整理する", "review": "理解不十分な点を教科書で確認し定着させる", "exam": true }
+        }
+      },
+      {
+        "name": "税法A",
+        "teacher": "藤井 誠",
+        "units": 2,
+        "evaluation": "授業内確認小テスト80% + 学期末レポート20%",
+        "weeks": {
+          "1": { "topic": "ガイダンス・租税の基礎,公共財", "prep": "授業範囲を予習しキーワードや専門用語の意味を理解する", "review": "要点を整理し専門用語の意味や定義を確認する" },
+          "2": { "topic": "租税の意義,機能,分類", "prep": "授業範囲を予習しキーワードや専門用語の意味を理解する", "review": "要点を整理し専門用語の意味や定義を確認する" },
+          "3": { "topic": "租税徴収,行政機構,租税原則", "prep": "授業範囲を予習しキーワードや専門用語の意味を理解する", "review": "要点を整理し専門用語の意味や定義を確認する" },
+          "4": { "topic": "憲法と租税法との関係,死重損失", "prep": "授業範囲を予習しキーワードや専門用語の意味を理解する", "review": "要点を整理し専門用語の意味や定義を確認する" },
+          "5": { "topic": "所得税の構造,税率", "prep": "授業範囲を予習しキーワードや専門用語の意味を理解する", "review": "要点を整理し専門用語の意味や定義を確認する" },
+          "6": { "topic": "利子所得,配当所得,不動産所得,事業所得", "prep": "授業範囲を予習しキーワードや専門用語の意味を理解する", "review": "要点を整理し専門用語の意味や定義を確認する" },
+          "7": { "topic": "給与所得,退職所得,山林所得,譲渡所得", "prep": "授業範囲を予習しキーワードや専門用語の意味を理解する", "review": "要点を整理し専門用語の意味や定義を確認する" },
+          "8": { "topic": "一時所得,雑所得,収入金額,必要経費", "prep": "授業範囲を予習しキーワードや専門用語の意味を理解する", "review": "要点を整理し専門用語の意味や定義を確認する" },
+          "9": { "topic": "相続税の概要,民法との関係", "prep": "授業範囲を予習しキーワードや専門用語の意味を理解する", "review": "要点を整理し専門用語の意味や定義を確認する" },
+          "10": { "topic": "相続除外,廃除,遺留分,相続税の計算構造", "prep": "授業範囲を予習しキーワードや専門用語の意味を理解する", "review": "要点を整理し専門用語の意味や定義を確認する" },
+          "11": { "topic": "相続税の納付", "prep": "授業範囲を予習しキーワードや専門用語の意味を理解する", "review": "要点を整理し専門用語の意味や定義を確認する" },
+          "12": { "topic": "贈与税", "prep": "授業範囲を予習しキーワードや専門用語の意味を理解する", "review": "要点を整理し専門用語の意味や定義を確認する" },
+          "13": { "topic": "相続税の財産評価", "prep": "授業範囲を予習しキーワードや専門用語の意味を理解する", "review": "要点を整理し専門用語の意味や定義を確認する" }
+        }
+      }
+    ]
+  },
+  "後学期": {
+    "月": {
+      "2限": {
+        "name": "商法A(企業取引法)",
+        "teacher": "鬼頭 俊泰",
+        "room": "2302教室",
+        "units": 4,
+        "evaluation": "学期末試験60% + 平常点40%",
+        "textbook": "松嶋隆弘・大久保拓也編『商事法講義2 商法総則・商行為』中央経済社",
+        "classroom_code": "cj7iwtzc",
+        "note": "月曜2限と水曜2限の週2回",
+        "weeks": {
+          "1": { "topic": "Orientation", "prep": "シラバスを読み目的と到達目標を理解する", "review": "商法に対する理解を深める" },
+          "2": { "topic": "商法総論(法体系における商法の位置付け)", "prep": "法体系における商法の位置づけを理解する", "review": "商法の位置づけにつき理解を深める" },
+          "3": { "topic": "商人の意義(1)", "prep": "商法が規制対象とする商人の意義を理解する", "review": "商人の意義につき理解を深める" },
+          "4": { "topic": "商人の意義(2) 裁判例", "prep": "商人であるか否かが問題となった裁判例を理解する", "review": "裁判例につき理解を深める" },
+          "5": { "topic": "商人資格の得喪", "prep": "商人資格の取得時期と喪失時期を理解する", "review": "商人資格の得喪につき理解を深める" },
+          "6": { "topic": "商号の意義と規制(1)", "prep": "商号の意義および規制内容を理解する", "review": "商号の意義につき理解を深める" },
+          "7": { "topic": "商号に関する規制(2) 裁判例", "prep": "類似商号が問題となった裁判例を理解する", "review": "裁判例につき理解を深める" },
+          "8": { "topic": "名板貸(1)", "prep": "名板貸しの意義と機能を理解する", "review": "名板貸しの意義につき理解を深める" },
+          "9": { "topic": "名板貸(2) 裁判例", "prep": "名板貸が問題となった裁判例を理解する", "review": "裁判例につき理解を深める" },
+          "10": { "topic": "商業使用人(1)", "prep": "商人と商業使用人との関係を理解する", "review": "商業使用人との関係につき理解を深める" },
+          "11": { "topic": "商業使用人(2) 裁判例", "prep": "商業使用人の裁判例を理解する", "review": "裁判例につき理解を深める" },
+          "12": { "topic": "代理商(1)", "prep": "商人と代理商との関係を理解する", "review": "代理商との関係につき理解を深める" },
+          "13": { "topic": "代理商(2) 裁判例", "prep": "代理商の行為が問題となった裁判例を理解する", "review": "裁判例につき理解を深める" },
+          "14": { "topic": "仲立取引(1) 仲立営業の意義と機能", "prep": "仲立営業の意義と機能を理解する", "review": "仲立営業につき理解を深める" },
+          "15": { "topic": "仲立取引(2) 裁判例", "prep": "仲立営業の裁判例を理解する", "review": "裁判例につき理解を深める" },
+          "16": { "topic": "仲立取引(3) 問屋営業の意義と機能", "prep": "問屋営業の意義と機能を理解する", "review": "問屋営業につき理解を深める" },
+          "17": { "topic": "仲立取引(4) 問屋営業の裁判例", "prep": "問屋営業の裁判例を理解する", "review": "裁判例につき理解を深める" },
+          "18": { "topic": "リース取引", "prep": "リース取引の意義と機能を理解する", "review": "リース取引につき理解を深める" },
+          "19": { "topic": "運送取引(1)", "prep": "運送営業の意義と機能を理解する", "review": "運送営業につき理解を深める" },
+          "20": { "topic": "運送取引(2) 裁判例", "prep": "運送営業の裁判例を理解する", "review": "裁判例につき理解を深める" },
+          "21": { "topic": "場屋取引", "prep": "場屋営業の意義と機能を理解する", "review": "場屋営業につき理解を深める" },
+          "22": { "topic": "倉庫取引", "prep": "倉庫営業の意義と機能を理解する", "review": "倉庫営業につき理解を深める" },
+          "23": { "topic": "商事売買", "prep": "民法と商法の売買の違いを理解する", "review": "商事売買につき理解を深める" },
+          "24": { "topic": "消費者売買", "prep": "消費者・事業者間の売買の規制を理解する", "review": "消費者売買の規制につき理解を深める" },
+          "25": { "topic": "電子売買取引", "prep": "電子売買に対する法規制を理解する", "review": "電子売買取引につき理解を深める" },
+          "26": { "topic": "総振り返りと理解度チェック", "prep": "第1-25回の内容を振り返り確認する", "review": "理解が不十分な点をチェックノートで定着させる", "exam": true }
+        }
+      },
+      "3限": {
+        "name": "知的財産権",
+        "teacher": "加藤 浩",
+        "room": "1303教室",
+        "units": 2,
+        "evaluation": "期末レポート80% + 授業参画度20%",
+        "weeks": {
+          "1": { "topic": "オリエンテーション・知的財産法総論", "prep": "知的財産に関して関心のある分野を確認する", "review": "オリエンテーションと総論の内容を確認する" },
+          "2": { "topic": "特許法1:目的・保護対象・保護要件", "prep": "講義資料に目を通す", "review": "講義資料を読み直して理解する" },
+          "3": { "topic": "特許法2:権利の主体・出願手続き", "prep": "講義資料に目を通す", "review": "講義資料を読み直して理解する" },
+          "4": { "topic": "特許法3:効力と制限・侵害と法的救済", "prep": "講義資料に目を通す", "review": "講義資料を読み直して理解する" },
+          "5": { "topic": "意匠法1:目的・保護対象・保護要件", "prep": "講義資料に目を通す", "review": "講義資料を読み直して理解する" },
+          "6": { "topic": "意匠法2:出願手続き・効力と制限", "prep": "講義資料に目を通す", "review": "講義資料を読み直して理解する" },
+          "7": { "topic": "商標法1:目的・保護対象・保護要件", "prep": "講義資料に目を通す", "review": "講義資料を読み直して理解する" },
+          "8": { "topic": "商標法2:出願手続き・効力と制限", "prep": "講義資料に目を通す", "review": "講義資料を読み直して理解する" },
+          "9": { "topic": "不正競争防止法:形態模倣・営業秘密", "prep": "講義資料に目を通す", "review": "講義資料を読み直して理解する" },
+          "10": { "topic": "著作権法1:保護対象・権利の主体", "prep": "講義資料に目を通す", "review": "講義資料を読み直して理解する" },
+          "11": { "topic": "著作権法2:効力と制限・保護期間", "prep": "講義資料に目を通す", "review": "講義資料を読み直して理解する" },
+          "12": { "topic": "著作権法3:著作者人格権・著作隣接権", "prep": "講義資料に目を通す", "review": "講義資料を読み直して理解する" },
+          "13": { "topic": "授業の振り返り・時事問題", "prep": "講義資料に目を通す", "review": "講義資料を読み直して理解する" }
+        }
+      }
+    },
+    "火": {
+      "2限": {
+        "name": "会計学入門1",
+        "teacher": "林 健治",
+        "room": "1401教室",
+        "units": 2,
+        "evaluation": "期末試験60% + 各回確認問題・レポート40%",
+        "textbook": "日本大学会計学研究室編『はじめての会計学 第8版』森山書店",
+        "weeks": {
+          "1": { "topic": "現代社会と会計の役割", "prep": "第1章のポイントとキーワードを把握し第1章を読む", "review": "キーワードとポイントを整理し章末問題にチャレンジする" },
+          "2": { "topic": "簿記・会計の基礎概念", "prep": "第2章のポイントとキーワードを把握し第2章を読む", "review": "キーワードとポイントを整理し章末問題にチャレンジする" },
+          "3": { "topic": "複式簿記の基本的手続", "prep": "第3章のポイントとキーワードを把握し第3章を読む", "review": "キーワードとポイントを整理しまとめる" },
+          "4": { "topic": "財務諸表の作成 -決算の手続き-", "prep": "第4章のポイントとキーワードを把握し第4章を読む", "review": "キーワードとポイントを整理し章末問題にチャレンジする" },
+          "5": { "topic": "株式会社のしくみ(1)", "prep": "第5章のポイントとキーワードを把握し第5章を読む", "review": "キーワードとポイントを整理しまとめる" },
+          "6": { "topic": "株式会社のしくみ(2)", "prep": "第5章のポイントとキーワードを把握し第5章を読む", "review": "キーワードとポイントを整理し章末問題にチャレンジする" },
+          "7": { "topic": "日本の企業会計制度(1) -会社法会計-", "prep": "第6章のポイントとキーワードを把握し第6章を読む", "review": "キーワードとポイントを整理しまとめる" },
+          "8": { "topic": "日本の企業会計制度(2) -金融商品取引法会計・税務会計-", "prep": "第6章のポイントとキーワードを把握し第6章を読む", "review": "キーワードとポイントを整理し章末問題にチャレンジする" },
+          "9": { "topic": "損益計算書のしくみ", "prep": "第7章のポイントとキーワードを把握し第7章を読む", "review": "キーワードとポイントを整理し章末問題にチャレンジする" },
+          "10": { "topic": "貸借対照表のしくみ", "prep": "第8章のポイントとキーワードを把握し第8章を読む", "review": "キーワードとポイントを整理し章末問題にチャレンジする" },
+          "11": { "topic": "財務諸表の分析", "prep": "第9章のポイントとキーワードを把握し第9章を読む", "review": "キーワードとポイントを整理し章末問題にチャレンジする" },
+          "12": { "topic": "会計の国際化", "prep": "第10章のポイントとキーワードを把握し第10章を読む", "review": "キーワードとポイントを整理し章末問題にチャレンジする" },
+          "13": { "topic": "会計専門職のすすめ・まとめ", "prep": "第15章を読む。第1-12回の内容を整理する", "review": "章末問題にチャレンジ。現在の会計の課題を考える", "exam": true }
+        }
+      }
+    },
+    "水": {
+      "2限": {
+        "name": "商法A(企業取引法)",
+        "teacher": "鬼頭 俊泰",
+        "room": "2302教室",
+        "units": 0,
+        "note": "月曜2限と同じ科目(週2回)。単位は月曜側でカウント。",
+        "shared_with": "月曜2限"
+      },
+      "3限": {
+        "name": "英語6(再・中級)",
+        "teacher": "寺本 明子",
+        "room": "2406教室",
+        "units": 1,
+        "evaluation": "Participation30% + Presentations/Tests50% + Quizzes/Assignments20%",
+        "textbook": "『世界の常識:小さいけれど大きな違い！』川田伸道著 朝日出版社",
+        "weeks": {
+          "1": { "topic": "オリエンテーション, Unit 7 本文リーディング", "prep": "Unit 7の本文を辞書を引きながら読む。新出単語の和訳を調べる", "review": "授業で学んだ内容を覚える" },
+          "2": { "topic": "Unit 7 続き,練習問題,文法説明", "prep": "Unit 7の本文を辞書を引きながら読む", "review": "授業で学んだ内容を覚える" },
+          "3": { "topic": "Unit 8 本文リーディング", "prep": "Unit 8の本文を辞書を引きながら読む", "review": "授業で学んだ内容を覚える" },
+          "4": { "topic": "Unit 8 続き,練習問題,文法説明", "prep": "Unit 8の本文を辞書を引きながら読む", "review": "授業で学んだ内容を覚える" },
+          "5": { "topic": "Unit 9 本文リーディング", "prep": "Unit 9の本文を辞書を引きながら読む", "review": "授業で学んだ内容を覚える" },
+          "6": { "topic": "Unit 9 続き,練習問題,文法説明", "prep": "Unit 9の本文を辞書を引きながら読む", "review": "授業で学んだ内容を覚える" },
+          "7": { "topic": "Unit 10 本文リーディング", "prep": "Unit 10の本文を辞書を引きながら読む", "review": "授業で学んだ内容を覚える" },
+          "8": { "topic": "Unit 10 続き,練習問題,文法説明", "prep": "Unit 10の本文を辞書を引きながら読む", "review": "授業で学んだ内容を覚える" },
+          "9": { "topic": "Unit 11 本文リーディング", "prep": "Unit 11の本文を辞書を引きながら読む", "review": "授業で学んだ内容を覚える" },
+          "10": { "topic": "Unit 11 続き,練習問題,文法説明", "prep": "Unit 11の本文を辞書を引きながら読む", "review": "授業で学んだ内容を覚える" },
+          "11": { "topic": "Unit 12 本文リーディング", "prep": "Unit 12の本文を辞書を引きながら読む", "review": "授業で学んだ内容を覚える" },
+          "12": { "topic": "Unit 12 続き,練習問題,文法説明", "prep": "Unit 12の本文を辞書を引きながら読む", "review": "授業で学んだ内容を覚える" },
+          "13": { "topic": "今学期の授業の振り返り", "prep": "プレゼンテーションの準備", "review": "今学期の学習の振り返り,定期試験に向けての勉強" }
+        }
+      },
+      "4限": {
+        "name": "異文化コミュニケーションB",
+        "teacher": "バイラ ビレンドラ プラサド",
+        "room": "1501教室",
+        "units": 2,
+        "evaluation": "Participation30% + Report30% + Presentations40%",
+        "weeks": {
+          "1": { "topic": "Introduction & Orientation", "prep": "Search about Japanese Work Culture Values", "review": "Communication Styles" },
+          "2": { "topic": "Hall's High Context Cultural Taxonomy 1", "prep": "Preview Hall's High Context Cultural Taxonomy", "review": "Review Hall's High Context Cultural Taxonomy" },
+          "3": { "topic": "Hall's High Context Cultural Taxonomy 2", "prep": "Preview Hall's High Context Cultural Taxonomy", "review": "Review Hall's High Context Cultural Taxonomy" },
+          "4": { "topic": "Compare and Contrast High-and-Low Context Cultures", "prep": "Preview Compare and Contrast", "review": "Review Compare and Contrast" },
+          "5": { "topic": "Watching Movie 'My Darling is a Foreigner'", "prep": "Preview Movie", "review": "Review Movie and Cultural Taxonomy" },
+          "6": { "topic": "Watching YouTube video for understanding Communication Styles", "prep": "Preview Communication Styles", "review": "Review Communication Styles" },
+          "7": { "topic": "Hofstede's Cultural Dimensions: Power Distance", "prep": "Preview Power Distance", "review": "Review Power Distance" },
+          "8": { "topic": "Hofstede's Cultural Dimensions: Uncertainty Avoidance", "prep": "Preview Uncertainty Avoidance", "review": "Review Uncertainty Avoidance" },
+          "9": { "topic": "Hofstede's Cultural Dimensions: Individualism vs Collectivism", "prep": "Preview Individualism versus Collectivism", "review": "Review Individualism versus Collectivism" },
+          "10": { "topic": "Hofstede's Cultural Dimensions: Masculinity vs Femininity", "prep": "Preview Masculinity versus Femininity", "review": "Review Masculinity versus Femininity" },
+          "11": { "topic": "Hofstede's Cultural Dimensions: Long-Term vs Short-Term", "prep": "Preview Long-Term versus Short-Term Time Orientation", "review": "Review Long-Term versus Short-Term Time Orientation" },
+          "12": { "topic": "Presentation: First and Second Group", "prep": "Prepare & Preview presenters' materials", "review": "Writing comments", "presentation": true },
+          "13": { "topic": "Presentation: Third and Fourth Group", "prep": "Prepare & Preview presenters' materials", "review": "Writing Comments", "presentation": true }
+        }
+      },
+      "5限": {
+        "name": "英語2(再・中級)",
+        "teacher": "岡田 愛",
+        "room": "2303教室",
+        "units": 1,
+        "evaluation": "Participation30% + Tests50% + Quizzes/Assignments20%",
+        "textbook": "『5分間に地表基本英単語 熟語1000』南雲堂 佐藤誠司",
+        "weeks": {
+          "1": { "topic": "オリエンテーション", "prep": "次回の授業範囲を予習しキーワードの意味を理解する", "review": "授業で確認した単語とリーディングを精読する" },
+          "2": { "topic": "Lesson 12 買い物・商売に関する語句とリーディング", "prep": "次回の授業範囲を予習しキーワードの意味を理解する", "review": "授業で確認した単語とリーディングを精読する" },
+          "3": { "topic": "Lesson 13 芸術と娯楽に関する語句とリーディング", "prep": "次回の授業範囲を予習しキーワードの意味を理解する", "review": "授業で確認した単語とリーディングを精読する" },
+          "4": { "topic": "Lesson 14 食品・食事に関する語句とリーディング", "prep": "次回の授業範囲を予習しキーワードの意味を理解する", "review": "授業で確認した単語とリーディングを精読する" },
+          "5": { "topic": "Lesson 15 健康・医学に関する語句とリーディング", "prep": "次回の授業範囲を予習しキーワードの意味を理解する", "review": "授業で確認した単語とリーディングを精読する" },
+          "6": { "topic": "Lesson 16 住宅・家具・日用品に関する語句とリーディング", "prep": "次回の授業範囲を予習しキーワードの意味を理解する", "review": "授業で確認した単語とリーディングを精読する" },
+          "7": { "topic": "Lesson 17 日常生活に関する語句とリーディング", "prep": "次回の授業範囲を予習しキーワードの意味を理解する", "review": "授業で確認した単語とリーディングを精読する" },
+          "8": { "topic": "Lesson 18 家族・対人関係に関する語句とリーディング", "prep": "次回の授業範囲を予習しキーワードの意味を理解する", "review": "授業で確認した単語とリーディングを精読する" },
+          "9": { "topic": "Lesson 19 人の性格・態度に関する語句とリーディング", "prep": "次回の授業範囲を予習しキーワードの意味を理解する", "review": "授業で確認した単語とリーディングを精読する" },
+          "10": { "topic": "Lesson 20 時・場所に関する語句とリーディング", "prep": "次回の授業範囲を予習しキーワードの意味を理解する", "review": "授業で確認した単語とリーディングを精読する" },
+          "11": { "topic": "ライティング1", "prep": "次回の授業範囲を予習しキーワードの意味を理解する", "review": "書き方を復習しテーマを選び書いてみる" },
+          "12": { "topic": "ライティング2", "prep": "次回の授業範囲を予習しキーワードの意味を理解する", "review": "エッセイが書けるように復習する" },
+          "13": { "topic": "試験", "prep": "秋学期の授業範囲を確認しキーワードの意味を理解する", "review": "授業で確認した単語とリーディングを精読する", "exam": true }
+        }
+      }
+    },
+    "木": {
+      "2限": {
+        "name": "ドイツ語2(再)",
+        "teacher": "渡邊 徳明",
+        "room": "2412教室",
+        "units": 1,
+        "evaluation": "平常点100%(授業参加50% + 課題・小テスト・発表50%)",
+        "weeks": {
+          "1": { "topic": "前期の復習", "prep": "単語の意味と文法について予習する", "review": "単語や文法を用いて作文を行い理解を深める" },
+          "2": { "topic": "再帰代名詞と再帰動詞", "prep": "新出単語の意味と再帰代名詞を調べる", "review": "再帰代名詞と再帰動詞を使った文を作る" },
+          "3": { "topic": "形容詞の格変化", "prep": "新出単語の意味と形容詞の格変化を調べる", "review": "形容詞の格変化を使った文を作る" },
+          "4": { "topic": "形容詞の比較級や最上級", "prep": "新出単語の意味と比較級や最上級を調べる", "review": "形容詞の比較変化を使った文を作る" },
+          "5": { "topic": "話法の助動詞", "prep": "新出単語の意味と話法の助動詞を調べる", "review": "話法の助動詞を使った文を作る" },
+          "6": { "topic": "副文と文章構造", "prep": "新出単語の意味と副文を調べる", "review": "副文を使った文を作り理解を深める" },
+          "7": { "topic": "副文,命令形", "prep": "新出単語の意味と命令形を調べる", "review": "命令形を使った文を作り理解を深める" },
+          "8": { "topic": "過去形,動詞の3基本形(中間テスト予定)", "prep": "新出単語の意味と動詞の3基本形を調べる", "review": "動詞の過去形を使った文を作り理解を深める", "exam": true },
+          "9": { "topic": "現在完了形(1)", "prep": "新出単語の意味と現在完了形を調べる", "review": "現在完了形を使った文を作り理解を深める" },
+          "10": { "topic": "現在完了形(2),zu不定詞", "prep": "新出単語の意味と過去完了形を調べる", "review": "過去完了形を使った文を作り理解を深める" },
+          "11": { "topic": "受動態,序数・日付・年号", "prep": "新出単語の意味と受動態を調べる", "review": "受動態を使った文を作り理解を深める" },
+          "12": { "topic": "関係代名詞", "prep": "新出単語の意味と関係代名詞を調べる", "review": "関係代名詞を使った文を作り理解を深める" },
+          "13": { "topic": "授業の振り返りと理解度チェック(期末テスト)", "prep": "初回から前回までの学習内容を振り返る", "review": "理解が不十分な点についてチェックノートを作る", "exam": true }
+        }
+      },
+      "3限": {
+        "name": "外国書講読B",
+        "teacher": "井戸 大輔",
+        "room": "2202教室",
+        "units": 1,
+        "evaluation": "期末テスト30% + 中間小テスト10% + 授業内課題30% + 平常点30%",
+        "weeks": {
+          "1": { "topic": "イントロダクション", "prep": "シラバスを確認し読んでおく", "review": "CEO,CFO,MBA,CPAの内容を復習し定着させる" },
+          "2": { "topic": "Types of Retailers", "prep": "教材2ページのQUESTIONSの5つを読み解答を想定する", "review": "QUESTIONSの解答を復習し定着させる" },
+          "3": { "topic": "Retailer Characteristics", "prep": "教材3ページを読み登場する企業をネットで調べる", "review": "各企業の事業内容を復習し定着させる" },
+          "4": { "topic": "Type of Merchandise", "prep": "教材3-5ページを読みNACISコードを把握する", "review": "NACISコードの内容を復習し定着させる" },
+          "5": { "topic": "Variety and Assortment, Services Offered", "prep": "教材5-6ページを読み商品の幅と深さ,SKUを把握する", "review": "商品の幅と深さ,SKUを復習し定着させる" },
+          "6": { "topic": "Prices and Cost of Offering Breadth and Depth", "prep": "教材6-8ページを読み登場企業をネットで調べる", "review": "第1-6回の総復習。各企業の事業内容を定着させる" },
+          "7": { "topic": "中間小テスト, Supermarkets", "prep": "教材8-9ページを読みスーパーマーケットの特徴を理解する", "review": "スーパーマーケットの内容を復習し定着させる", "exam": true },
+          "8": { "topic": "中間小テスト解答と解説, Trends in Supermarket Retailing", "prep": "第1-7回の復習。教材8-9ページを読み企業を調べる", "review": "各企業の事業内容を復習し定着させる" },
+          "9": { "topic": "Fresh Merchandise, Health/Organic Merchandise", "prep": "教材10ページを読みFair trade,locavore movementを把握する", "review": "Fair trade,locavore movementを復習し定着させる" },
+          "10": { "topic": "Ethnic Merchandise, Private-Label Merchandise", "prep": "教材11ページを読み内容を把握する", "review": "内容を復習し定着させる" },
+          "11": { "topic": "Supercenters", "prep": "教材11-12ページを読みスーパーセンターの特徴を理解する", "review": "スーパーセンターの内容を復習し定着させる" },
+          "12": { "topic": "期末試験", "prep": "第8-11回の学習内容を総復習し試験準備する", "review": "試験の振り返りと理解ノートを完成させる", "exam": true },
+          "13": { "topic": "期末試験フィードバック", "prep": "教材13ページConvenience Storesを読む", "review": "Convenience Storesの内容を復習し定着させる" }
+        }
+      }
+    },
+    "金": {
+      "1限": {
+        "name": "ドイツ語6(再)",
+        "teacher": "山崎 明日香",
+        "room": "CP05教室",
+        "units": 1,
+        "evaluation": "平常点100%(授業参加50% + 課題・小テスト・発表50%)",
+        "weeks": {
+          "1": { "topic": "前期の復習", "prep": "単語の意味と文法について予習する", "review": "単語や文法を用いて作文を行い理解を深める" },
+          "2": { "topic": "受動態,zu不定詞句", "prep": "新出単語の意味と受動態やzu不定詞句を調べる", "review": "受動態やzu不定詞句を使った文を作る" },
+          "3": { "topic": "過去の表現(規則動詞,分離動詞,非分離動詞)", "prep": "新出単語の意味と動詞の3基本形を調べる", "review": "動詞の過去形を使った文を作る" },
+          "4": { "topic": "ドイツ語圏の様々な文化事情", "prep": "ドイツの様々な文化事情について調べる", "review": "ドイツの様々な文化事情を確認し発展させる" },
+          "5": { "topic": "現在完了形,過去完了形,状態の変化", "prep": "新出単語の意味と現在完了形や過去完了形を調べる", "review": "現在完了形や過去完了形を使った文を作る" },
+          "6": { "topic": "副文と語順(1) 主文と副文", "prep": "新出単語の意味と副文と語順を調べる", "review": "主文と副文を使った複雑な文を作る" },
+          "7": { "topic": "関係代名詞と語順", "prep": "新出単語の意味と関係代名詞を調べる", "review": "関係代名詞を使った文を作る" },
+          "8": { "topic": "ドイツ語圏の様々な文化事情", "prep": "ドイツの様々な文化事情について調べる", "review": "ドイツの様々な文化事情を確認し発展させる" },
+          "9": { "topic": "分詞構文,現在分詞・過去分詞,冠飾句", "prep": "新出単語の意味と現在分詞や過去分詞を調べる", "review": "分詞や冠飾句を使った文を作る" },
+          "10": { "topic": "接続法II式(非現実話法)", "prep": "新出単語の意味と接続法II式を調べる", "review": "接続法II式を使った文を作る" },
+          "11": { "topic": "接続法I式(間接話法)", "prep": "新出単語の意味と接続法I式を調べる", "review": "接続法I式の間接話法を使った文を作る" },
+          "12": { "topic": "ドイツ語圏の様々な文化事情", "prep": "ドイツの様々な文化事情について調べる", "review": "ドイツの様々な文化事情を確認し発展させる" },
+          "13": { "topic": "授業の振り返りと理解度チェック(期末テスト)", "prep": "後期に学習した内容を振り返り理解を確認する", "review": "理解が不十分な点についてチェックノートを作る", "exam": true }
+        }
+      },
+      "2限": {
+        "name": "ドイツ語4(再)",
+        "teacher": "山崎 明日香",
+        "room": "CP05教室",
+        "units": 1,
+        "evaluation": "平常点100%(授業参加50% + 課題・小テスト・発表50%)",
+        "weeks": {
+          "1": { "topic": "前期の復習", "prep": "単語の意味と文法と発音について予習する", "review": "単語や文法を用いて作文を行い理解を深める" },
+          "2": { "topic": "大学生活について書く：時間を表す前置詞", "prep": "新出単語の意味とスケジュールの表現を調べる", "review": "自身のスケジュールについて文章を作る" },
+          "3": { "topic": "趣味や休日の過ごし方：不規則変化動詞", "prep": "新出単語を調べ趣味についての表現を確認する", "review": "趣味の単語の発音を練習する" },
+          "4": { "topic": "友人と待ち合わせる：話法の助動詞", "prep": "新出単語の意味と話法の助動詞を調べる", "review": "話法の助動詞を使った文を作る" },
+          "5": { "topic": "可能なことや許可：文の構造", "prep": "新出単語の意味と分離動詞を調べる", "review": "分離動詞を使った文を作る" },
+          "6": { "topic": "絵を見て描写する：所有冠詞1格", "prep": "新出単語を調べ家族を紹介する表現について発音する", "review": "家族や職業についての単語を復習する" },
+          "7": { "topic": "自分の家族について話す：所有を表す-S", "prep": "新出単語の意味と所有冠詞を調べる", "review": "所有冠詞を使った文を作る" },
+          "8": { "topic": "色々な職業について話す：男性形と女性形", "prep": "新出単語の意味と職業の名詞の性別を調べる", "review": "職業の名詞を使った文を作る" },
+          "9": { "topic": "品物を選んで購入する：価格の表現", "prep": "新出単語の意味を調べ音声資料を聞いて発音する", "review": "品物についての単語を復習する" },
+          "10": { "topic": "欲しいものを表現する：動詞の人称変化", "prep": "新出単語を調べ品物について尋ねる表現を理解する", "review": "物の価格についての表現を復習する" },
+          "11": { "topic": "値段について話す：文の構造(2)", "prep": "新出単語を調べ買い物の表現を理解する", "review": "好きな事について作文をする" },
+          "12": { "topic": "自分の部屋を描写する：Woで始まる疑問文", "prep": "新出単語の意味を調べ音声資料を聞いて発音する", "review": "家具や家電についての単語を復習する" },
+          "13": { "topic": "授業の振り返りと理解度チェック(期末テスト)", "prep": "初回から前回までの学習内容を振り返る", "review": "理解が不十分な点についてチェックノートを作る", "exam": true }
+        }
+      },
+      "3限": {
+        "name": "英語8(再・中級)",
+        "teacher": "金指 崇",
+        "room": "2505教室",
+        "units": 1,
+        "evaluation": "Participation30% + Tests50% + Quizzes/Assignments20%",
+        "textbook": "It's Time to Read!『楽しく読んで学ぶ基礎英語』南雲堂",
+        "weeks": {
+          "1": { "topic": "Introduction", "prep": "Buy the textbook and scan Units 9-16", "review": "Answer the questions in the handout" },
+          "2": { "topic": "Introduction to English pronunciation", "prep": "Read Takashi's Pronunciation Tips", "review": "Answer the questions in the handout" },
+          "3": { "topic": "Unit 9 'A Fish Tale'", "prep": "Read Unit 9 and answer the questions", "review": "Answer the questions in the handout" },
+          "4": { "topic": "Unit 10 'Hurling'", "prep": "Read Unit 10 and answer the questions", "review": "Answer the questions in the handout" },
+          "5": { "topic": "Unit 11 'Sleep'", "prep": "Read Unit 11 and answer the questions", "review": "Answer the questions in the handout" },
+          "6": { "topic": "Test One", "prep": "Review Units 9, 10, and 11", "review": "Read the handout and review Test One", "exam": true },
+          "7": { "topic": "Unit 12 'Superstition'", "prep": "Read Unit 12 and answer the questions", "review": "Answer the questions in the handout" },
+          "8": { "topic": "Unit 13 'Valentine's Day'", "prep": "Read Unit 13 and answer the questions", "review": "Answer the questions in the handout" },
+          "9": { "topic": "Unit 14 'Future Food'", "prep": "Read Unit 14 and answer the questions", "review": "Answer the questions in the handout" },
+          "10": { "topic": "Test Two", "prep": "Review Units 9-14", "review": "Read the handout and review Test Two", "exam": true },
+          "11": { "topic": "Unit 15 'Jack O'Lantern'", "prep": "Read Unit 15 and answer the questions", "review": "Answer the questions in the handout" },
+          "12": { "topic": "Unit 16 'Who Was This Man?'", "prep": "Read Unit 16 and answer the questions", "review": "Answer the questions in the handout" },
+          "13": { "topic": "Final Test", "prep": "Review Units 9-16", "review": "Read the handout and review Final Test", "exam": true }
+        }
+      },
+      "4限": {
+        "name": "文学史A",
+        "teacher": "茅原 雅之",
+        "room": "1403教室",
+        "units": 2,
+        "evaluation": "期末試験60% + レポート1回30% + 授業参加度10%",
+        "classroom_code": "vh2ayubd",
+        "weeks": {
+          "1": { "topic": "ガイダンス：和歌発展の概観", "prep": "八代集について調べる", "review": "万葉調・古今調・新古今調の違いを説明できるようにする" },
+          "2": { "topic": "新古今和歌集について", "prep": "辞書類にて新古今和歌集を調査する", "review": "主要歌人たちと御子左家の関係を整理する" },
+          "3": { "topic": "新古今歌風1 本歌取りとは何か。余情妖艶とは何か", "prep": "本歌取りについて調べる", "review": "本歌取りの表現効果を再確認する" },
+          "4": { "topic": "新古今歌風2 象徴表現とは何か", "prep": "象徴表現とは何か現代文学を例にして調べる", "review": "新古今歌風における象徴表現を整理する" },
+          "5": { "topic": "新古今歌風3 きわめて難解な表現技巧", "prep": "和歌文学の修辞法について調べる", "review": "新古今和歌集の各種修辞法を再確認する" },
+          "6": { "topic": "歌道家の確立1 俊成(幽玄の提唱者)", "prep": "俊成の歌人的功績と幽玄について調べる", "review": "俊成が提唱する幽玄を説明できるようにする" },
+          "7": { "topic": "歌道家の確立2 定家(中世和歌最大の歌人)", "prep": "定家の功績と近代秀歌について調べる", "review": "レポート作成：新古今歌風以後和歌が発達しなかった理由", "report": true },
+          "8": { "topic": "歌道家の確立3 和歌師範の世襲化", "prep": "歌道家について事典類で調べる", "review": "鎌倉時代以降歌道家が果たした役割をまとめる" },
+          "9": { "topic": "歌道家の確立4 歌壇の支配と和歌の衰退", "prep": "為家について辞典類で調べる", "review": "詠歌一体について骨子をまとめる" },
+          "10": { "topic": "御子左家の分裂 二条家・京極家・冷泉家", "prep": "阿仏尼・十六夜日記について調べる", "review": "御子左家分裂後の各歌道家の詠風をまとめる" },
+          "11": { "topic": "和歌の終焉 偽書の氾濫", "prep": "鵜鷺系歌論書について事典で調べる", "review": "偽書が量産されたことの意味を説明できるようにする" },
+          "12": { "topic": "連歌の隆盛", "prep": "連歌とは何か辞典類で調べる", "review": "連歌と和歌の関係を説明できるようにする" },
+          "13": { "topic": "授業の振り返りと理解度チェック(期末試験)", "prep": "テキスト・資料・ノートを総合的に復習する", "review": "中世和歌の展開と終焉について自己総括する", "exam": true }
+        }
+      }
+    }
+  }
+}
