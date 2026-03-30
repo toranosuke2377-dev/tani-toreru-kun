@@ -17,3 +17,4 @@ jobs:
       - run: node notify.mjs
         env:
           LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}

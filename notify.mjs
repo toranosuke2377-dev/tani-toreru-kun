@@ -9,7 +9,7 @@ const CHANNEL_ACCESS_TOKEN = process.env.LINE_CHANNEL_ACCESS_TOKEN;
 
 // 学期の開始日（第1回授業が行われる週の月曜日に設定）
 const SEMESTER_START = {
-  前学期: new Date("2026-04-06"), // 4/10(金)が第1週 → その週の月曜は4/6
+  前学期: new Date("2026-04-06"), // 4/10(金)開始 → その週の月曜は4/6
   後学期: new Date("2026-09-21"), // 後学期開始日（要確認）
 };
 
@@ -38,7 +38,7 @@ function clampWeek(w) {
   return w;
 }
 
-function buildMessage() {
+async function buildMessage() {
   const courses = JSON.parse(fs.readFileSync(path.join(__dirname, "courses.json"), "utf-8"));
   const now = new Date();
   const dayOfWeek = DAY_MAP[now.getDay()];
@@ -191,11 +191,71 @@ function buildMessage() {
     }
   }
 
+  // --- 課題リマインド ---
+  const taskData = await loadTaskData();
+  const activeTasks = (taskData.tasks || []).filter(t => !t.done);
+  if (activeTasks.length > 0) {
+    activeTasks.sort((a, b) => new Date(a.deadline) - new Date(b.deadline));
+    lines.push("");
+    lines.push("-- 課題の締切 --");
+    for (const t of activeTasks) {
+      const d = new Date(t.deadline);
+      const diff = Math.ceil((d - new Date(now.toDateString())) / 86400000);
+      const dl = `${d.getMonth() + 1}/${d.getDate()}`;
+      let warn = `(あと${diff}日)`;
+      if (diff < 0) warn = "(期限切れ!!)";
+      else if (diff === 0) warn = "(今日!!)";
+      else if (diff === 1) warn = "(明日!)";
+      else if (diff <= 3) warn = `(あと${diff}日!)`;
+      lines.push(`${t.course}: ${t.content} ${dl}${warn}`);
+    }
+  }
+
+  // --- テスト週間カウントダウン ---
+  const semStart = SEMESTER_START[semester];
+  const week13Start = new Date(semStart.getTime() + 12 * 7 * 86400000);
+  const daysToExam = Math.ceil((week13Start - new Date(now.toDateString())) / 86400000);
+  if (daysToExam > 0 && daysToExam <= 30) {
+    lines.push("");
+    if (daysToExam <= 7) {
+      lines.push(`!! 試験週間まであと${daysToExam}日!! !!`);
+    } else if (daysToExam <= 14) {
+      lines.push(`! 試験週間まであと${daysToExam}日! 復習始めよう!`);
+    } else {
+      lines.push(`試験週間まであと${daysToExam}日`);
+    }
+  }
+
   lines.push("");
   lines.push(`━━━━━━━━━━━━━━`);
   lines.push("単位、絶対取ろう!");
 
   return lines.join("\n");
+}
+
+async function loadTaskData() {
+  try {
+    const token = process.env.GITHUB_TOKEN;
+    if (!token) {
+      // ローカル実行時はdata.jsonを直接読む
+      const localPath = path.join(__dirname, "data.json");
+      if (fs.existsSync(localPath)) {
+        return JSON.parse(fs.readFileSync(localPath, "utf-8"));
+      }
+      return { tasks: [], attendance: {} };
+    }
+    const res = await fetch("https://api.github.com/repos/toranosuke2377-dev/tani-toreru-kun/contents/data.json", {
+      headers: {
+        Authorization: `token ${token}`,
+        Accept: "application/vnd.github.v3+json",
+      },
+    });
+    if (!res.ok) return { tasks: [], attendance: {} };
+    const json = await res.json();
+    return JSON.parse(Buffer.from(json.content, "base64").toString("utf-8"));
+  } catch {
+    return { tasks: [], attendance: {} };
+  }
 }
 
 function sendLineBroadcast(message) {
@@ -236,7 +296,7 @@ function sendLineBroadcast(message) {
 }
 
 // メイン実行
-const message = buildMessage();
+const message = await buildMessage();
 console.log("--- 送信メッセージ ---");
 console.log(message);
 console.log("--- 送信中... ---");
