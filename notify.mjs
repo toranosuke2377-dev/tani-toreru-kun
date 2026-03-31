@@ -28,7 +28,8 @@ function getCurrentWeek(semesterStart) {
 function getCurrentSemester() {
   const now = new Date();
   const month = now.getMonth() + 1;
-  if (month >= 4 && month <= 8) return "前学期";
+  // 3月〜8月は前学期（3月は前学期準備期間）
+  if (month >= 3 && month <= 8) return "前学期";
   return "後学期";
 }
 
