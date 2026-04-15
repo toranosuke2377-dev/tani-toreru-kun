@@ -9,6 +9,7 @@ import {
   findCourse,
   getAllCourseNames,
   getMaxAbsences,
+  nowJST,
 } from "./lib/timetable.mjs";
 
 const LINE_TOKEN = process.env.LINE_CHANNEL_ACCESS_TOKEN;
@@ -46,7 +47,7 @@ function parseDate(str) {
 
 function formatDeadline(dateStr) {
   const d = new Date(dateStr);
-  const now = new Date();
+  const now = nowJST();
   now.setHours(0, 0, 0, 0);
   d.setHours(0, 0, 0, 0);
   const diff = Math.ceil((d - now) / 86400000);
@@ -90,7 +91,7 @@ async function handleMessage(replyToken, text) {
   }
 
   if (msg === "時間割") {
-    return reply(replyToken, formatTimetable(getSemester(new Date())));
+    return reply(replyToken, formatTimetable(getSemester(nowJST())));
   }
   if (msg === "前学期時間割" || msg === "前期時間割") {
     return reply(replyToken, formatTimetable("前学期"));
@@ -100,13 +101,13 @@ async function handleMessage(replyToken, text) {
   }
 
   if (msg === "今日" || msg === "今日の予定") {
-    return reply(replyToken, formatToday(new Date()));
+    return reply(replyToken, formatToday(nowJST()));
   }
 
   if (msg === "カウントダウン" || msg.includes("試験まで")) {
-    const days = getExamCountdown(new Date());
-    const sem = getSemester(new Date());
-    const week = getWeek(new Date());
+    const days = getExamCountdown(nowJST());
+    const sem = getSemester(nowJST());
+    const week = getWeek(nowJST());
     let t;
     if (days <= 0) {
       t = "試験期間中、またはもう終わった!";

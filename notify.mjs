@@ -7,16 +7,22 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const CHANNEL_ACCESS_TOKEN = process.env.LINE_CHANNEL_ACCESS_TOKEN;
 
+// 日本時間の現在日時を取得（UTC+9）
+function nowJST() {
+  const now = new Date();
+  return new Date(now.getTime() + (now.getTimezoneOffset() + 540) * 60000);
+}
+
 // 学期の開始日（第1回授業が行われる週の月曜日に設定）
 const SEMESTER_START = {
-  前学期: new Date("2026-04-06"), // 4/10(金)開始 → その週の月曜は4/6
-  後学期: new Date("2026-09-21"), // 後学期開始日（要確認）
+  前学期: new Date("2026-04-06T00:00:00"),
+  後学期: new Date("2026-09-21T00:00:00"),
 };
 
 const DAY_MAP = { 0: "日", 1: "月", 2: "火", 3: "水", 4: "木", 5: "金", 6: "土" };
 
 function getCurrentWeek(semesterStart) {
-  const now = new Date();
+  const now = nowJST();
   now.setHours(0, 0, 0, 0);
   const start = new Date(semesterStart);
   start.setHours(0, 0, 0, 0);
@@ -26,7 +32,7 @@ function getCurrentWeek(semesterStart) {
 }
 
 function getCurrentSemester() {
-  const now = new Date();
+  const now = nowJST();
   const month = now.getMonth() + 1;
   // 3月〜8月は前学期（3月は前学期準備期間）
   if (month >= 3 && month <= 8) return "前学期";
@@ -41,7 +47,7 @@ function clampWeek(w) {
 
 async function buildMessage() {
   const courses = JSON.parse(fs.readFileSync(path.join(__dirname, "courses.json"), "utf-8"));
-  const now = new Date();
+  const now = nowJST();
   const dayOfWeek = DAY_MAP[now.getDay()];
   const semester = getCurrentSemester();
   const semesterData = courses[semester];
